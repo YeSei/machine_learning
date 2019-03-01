@@ -1,0 +1,1 @@
+%% Initializationclear ; close all; clcaddpath('./libsvm-3.22/matlab');%% ==================== Part 1: linear SVM ====================%% 加载数据[train_y, train_x] = libsvmread('ex8a.txt');a = [train_x train_y];csvwrite('train2.csv',a);[test_y, test_x] = libsvmread('ex8b.txt');b = [test_x test_y];csvwrite('test2.csv',b);
