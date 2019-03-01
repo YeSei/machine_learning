@@ -1,2 +1,3 @@
 # machine_learning
-斯坦福ml
+西瓜书代码实现
+斯坦福ML学习
